@@ -1,9 +1,12 @@
 require 'pry'
 class MP3Importer
 
-@directory = []
+attr_accessor :path
+    @directory = []
+
 
   def initialize(file_path)
+    @path = path
 
     #binding.pry
   end
@@ -13,4 +16,11 @@ def files
   file_path_directory = file_path_parse[2]
   @directory << file_path_directory
 end
+
+def import
+  Dir["/path/to/search/**/*.mp3"]
+end
+
+
+
 end
