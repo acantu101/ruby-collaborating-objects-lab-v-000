@@ -12,7 +12,7 @@ attr_accessor :path
 
 def files
     #binding.pry
-Dir./spec/fixtures/mp3s
+dir[./spec/fixtures/mp3s]
 #  binding.pry
 end
 
