@@ -11,9 +11,8 @@ attr_accessor :path
   end
 
 def files
-  basedir = '.'
-  files = Dir.mp3s("*.mp3")
-  files
+  dir_contents = Dir.entries(Dir.mp3)
+
 #  binding.pry
 end
 
