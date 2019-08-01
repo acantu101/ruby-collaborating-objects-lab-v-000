@@ -11,10 +11,11 @@ attr_accessor :path
     #binding.pry
   end
 
-def files
-  file_path_parse = file_path.split("/")
-  file_path_directory = file_path_parse[2]
-  @directory << file_path_directory
+def files(files)
+  files = Dir.entries(".mp3")
+  song_name = files.split(" - ")
+  song_name
+
 end
 
 
