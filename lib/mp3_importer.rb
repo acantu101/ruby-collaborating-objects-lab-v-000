@@ -10,14 +10,10 @@ attr_accessor :path
     #binding.pry
   end
 
-def files
-    #binding.pry
-files = Dir.entries(".mp3")
-files.select do |file| if file.include? [/.mp3/]
-  file
-end
-end
-end
+
+    def files
+      Dir.entries(path).select do | file |
+    end
 
 
   def import(list_of_filenames)
