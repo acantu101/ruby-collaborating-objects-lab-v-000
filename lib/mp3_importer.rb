@@ -5,7 +5,7 @@ class MP3Importer
 
   def initialize(file_path)
     file_path = @file_path
-    file_path_parse = file_path.split("/")
+
     #binding.pry
   end
 
