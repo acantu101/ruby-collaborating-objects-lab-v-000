@@ -12,8 +12,7 @@ attr_accessor :path
 
 def files
     #binding.pry
-    dir_contents = Dir.entries("/spec/fixtures/mp3s")
-    dir_contents
+Dir.mp3s(".mp3")
 #  binding.pry
 end
 
