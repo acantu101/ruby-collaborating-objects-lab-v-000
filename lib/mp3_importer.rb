@@ -8,10 +8,11 @@ attr_accessor :path
   def initialize(path)
     @path = path
     #binding.pry
+    @path_directory = []
   end
 
 def files
-  files = Dir.entries(".mp3")
+ Dir.entries(".mp3")
   song_name = files.split(" - ")
   song_name
 
