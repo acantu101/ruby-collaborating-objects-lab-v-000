@@ -11,7 +11,7 @@ attr_accessor :path
   end
 
 def files
-Dir["fixtures/**/*.mp3"]
+Dir["fixtures/.mp3"]
 #  binding.pry
 end
 
