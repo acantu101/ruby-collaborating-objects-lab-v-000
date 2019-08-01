@@ -11,7 +11,8 @@ attr_accessor :path
   end
 
 def files
-Dir["fixtures/.mp3"]
+  basedir = '.'
+  files = Dir.fixtures("*.mp3")
 #  binding.pry
 end
 
