@@ -11,7 +11,7 @@ attr_accessor :path
   end
 
 def files
-    binding.pry
+    #binding.pry
     dir_contents = Dir.entries(Dir.mp3s)
 
 #  binding.pry
