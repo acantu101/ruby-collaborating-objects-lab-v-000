@@ -15,7 +15,7 @@ def files
 files = Dir.entries(".mp3")
 files.select do |file| if file.include? [/.mp3/]
   file
-
+end
 end
 
 
