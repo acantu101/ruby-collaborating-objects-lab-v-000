@@ -19,7 +19,7 @@ end
 
 def import(filename)
   song = song.new(filename)
-  
+
   Dir["/path/to/search/**/*.mp3"]
 end
 
