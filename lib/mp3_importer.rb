@@ -25,6 +25,4 @@ list_of_filenames = []
   end
 
 
-
-
 end
