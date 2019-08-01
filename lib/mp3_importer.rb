@@ -12,7 +12,7 @@ attr_accessor :path
 
 def files
   basedir = '.'
-  files = Dir.fixtures/mp3s("*.mp3")
+  files = Dir.mp3s("*.mp3")
   files
 #  binding.pry
 end
