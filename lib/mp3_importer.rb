@@ -14,7 +14,7 @@ list_of_filenames = []
 
     def files
       Dir.entries(path).select do | file | !File.directory? file
-        list_of_filenames << file
+
       #  binding.pry
     end
 
