@@ -3,12 +3,12 @@ class MP3Importer
 
 attr_accessor :path
 
-
+    @path_directory = []
 
   def initialize(path)
     @path = path
     #binding.pry
-    @path_directory = []
+
     @path_directory << path
   end
 
