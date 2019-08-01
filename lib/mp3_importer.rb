@@ -13,3 +13,4 @@ def files
   file_path_directory = file_path_parse[2]
   @directory << file_path_directory
 end
+end
