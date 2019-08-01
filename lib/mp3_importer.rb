@@ -20,7 +20,7 @@ attr_accessor :path
   end
 
 
-  def import(files_name)
+  def import
     file_name.each{ |files| Song.file_name(filename) }
   end
 
