@@ -13,7 +13,7 @@ attr_accessor :path
   end
 
 def files
-  path
+  @path_directory
 
 
 
