@@ -9,19 +9,23 @@ class Song
     @@all << name
   end
 
+  def artist 
+    @artist
+  end
+
+  def artist=(artist)
+    @artist = artist
+  end
+
   def self.new_by_filename(filename)
 
-    artist = filename.split(" - ")[0]
-    name = filename.split(" - ")[1]
-    song = Song.new(name)
+    artist_name = filename.split(" - ")[0]
+    song_name = filename.split(" - ")[1]
+    song = Song.new(song_name)
+    artist = Artist.new(artist_name)
+    song.artist = artist
     #binding.pry
 
 
-end
-
-def self.artist
-  artist = Artist.new(artist)
-
-  artist
-end
+  end
 end
