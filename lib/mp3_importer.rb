@@ -17,12 +17,11 @@ def files
   @directory << file_path_directory
 end
 
-def import(filename)
-  song = song.new(filename)
 
-  Dir["/path/to/search/**/*.mp3"]
+  def import(list_of_filenames)
+    list_of_filenames.each{ |filename| Song.new_by_filename(filename) }
+  end
 end
-
 
 
 end
