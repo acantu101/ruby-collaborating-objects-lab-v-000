@@ -11,7 +11,7 @@ attr_accessor :path
   end
 
 def files
-parse = @path.split("-")
+parse = path.split("-")
 parse
   #binding.pry
 end
