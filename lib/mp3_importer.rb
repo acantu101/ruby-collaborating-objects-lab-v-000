@@ -14,9 +14,7 @@ attr_accessor :path
 
 def files
   @@path_directory
-
-
-
+  binding.pry
 end
 
 
