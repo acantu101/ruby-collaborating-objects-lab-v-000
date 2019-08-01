@@ -12,7 +12,7 @@ attr_accessor :path
 
 def files
   dir_contents = Dir.entries(*".mp3")
-
+  binding.pry
 #  binding.pry
 end
 
