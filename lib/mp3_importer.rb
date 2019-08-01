@@ -14,7 +14,6 @@ attr_accessor :path
 
     def files
       Dir.entries(path).select do | file | !File.directory? file
-        file = @file
       #  binding.pry
     end
 
