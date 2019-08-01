@@ -15,7 +15,7 @@ attr_accessor :path
       Dir.entries(path).select do | file | !File.directory? file
         @@files << file
     end
-    files
+    
   end
 
 
