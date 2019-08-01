@@ -12,7 +12,7 @@ attr_accessor :path
   end
 
 
-    def files
+    def files(path)
       Dir.entries(path).select do | file | !File.directory? file
         @files << file
       #  binding.pry
