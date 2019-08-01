@@ -11,8 +11,7 @@ attr_accessor :path
   end
 
 def files
-parse = path.split("-")
-parse
+Dir["fixtures/**/*.mp3"]
 #  binding.pry
 end
 
