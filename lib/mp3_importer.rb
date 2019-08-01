@@ -13,6 +13,7 @@ attr_accessor :path
 def files
     #binding.pry
 files = Dir.entries(".mp3")
+files
 
 end
 
