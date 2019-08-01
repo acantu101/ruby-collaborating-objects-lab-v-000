@@ -15,7 +15,6 @@ class Song
     song_name = filename.split(" - ")[1]
     artist = Artist.new(artist_name)
     #binding.pry
-    song.artist.name = artist_name
 
 
     song
