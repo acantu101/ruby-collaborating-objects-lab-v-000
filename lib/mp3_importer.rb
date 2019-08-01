@@ -1,7 +1,7 @@
 require 'pry'
 class MP3Importer
 
-attr_accessor :path
+attr_accessor :file_path
     @directory = []
 
 
