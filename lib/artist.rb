@@ -19,6 +19,7 @@ attr_accessor :name
 
   def songs
     @songs
+    binding.pry
   end
 
   def save
