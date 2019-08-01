@@ -9,10 +9,11 @@ attr_accessor :path
     @path = path
     #binding.pry
     @path_directory = []
+    @path_directory << path
   end
 
 def files
- Dir.entries(".mp3")
+ 
   song_name = files.split(" - ")
   song_name
 
