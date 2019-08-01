@@ -12,8 +12,8 @@ attr_accessor :path
 
 def files
     #binding.pry
-Dir.mp3s(".mp3")
-#  binding.pry
+Dir.entries(".mp3)
+
 end
 
 
