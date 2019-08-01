@@ -8,13 +8,11 @@ attr_accessor :path
   def initialize(path)
     @path = path
     #binding.pry
-
-    @@path_directory << path
   end
 
 def files
-  @@path_directory
-  binding.pry
+@path.split("-")
+  #binding.pry
 end
 
 
