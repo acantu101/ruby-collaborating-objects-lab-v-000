@@ -17,6 +17,7 @@ files.select do |file| if file.include? [/.mp3/]
   file
 end
 end
+end
 
 
   def import(list_of_filenames)
