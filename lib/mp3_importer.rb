@@ -3,7 +3,7 @@ class MP3Importer
 
 attr_accessor :path
 
-    @@files = []
+    @files = []
 
   def initialize(path)
     @path = path
@@ -13,7 +13,7 @@ attr_accessor :path
 
     def files
       Dir.entries(path).select do | file | !File.directory? file
-        @@files << file
+        @files << file
         binding.pry
     end
 
