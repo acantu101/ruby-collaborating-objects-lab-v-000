@@ -20,8 +20,8 @@ attr_accessor :path
   end
 
 
-  def import(files)
-    list_of_filenames.each{ |filename| Song.new_by_filename(filename) }
+  def import(files_name)
+    file_name.each{ |files| Song.file_name(filename) }
   end
 
 
