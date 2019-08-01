@@ -13,7 +13,7 @@ attr_accessor :path
   end
 
 def files
- 
+
   song_name = files.split(" - ")
   song_name
 
