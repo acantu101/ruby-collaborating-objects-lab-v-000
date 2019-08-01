@@ -4,7 +4,8 @@ class MP3Importer
   attr_accessor
 
   def initialize(file_path)
-    binding.pry
+    file_path_parse = file_path.split("/")
+    #binding.pry
   end
 
 end
