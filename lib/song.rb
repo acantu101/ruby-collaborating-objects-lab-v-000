@@ -21,5 +21,6 @@ end
 
 def self.artist
   artist = Artist.new(@artist)
+  artist
 
 end
