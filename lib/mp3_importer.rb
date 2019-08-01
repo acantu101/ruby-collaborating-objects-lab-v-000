@@ -14,6 +14,7 @@ attr_accessor :path
     def files
       Dir.entries(path).select do | file |
     end
+  end
 
 
   def import(list_of_filenames)
