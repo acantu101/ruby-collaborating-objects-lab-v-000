@@ -11,7 +11,7 @@ attr_accessor :path
     #binding.pry
   end
 
-def files(files)
+def files
   files = Dir.entries(".mp3")
   song_name = files.split(" - ")
   song_name
