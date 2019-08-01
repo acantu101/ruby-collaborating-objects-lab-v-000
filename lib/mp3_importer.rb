@@ -20,7 +20,7 @@ list_of_filenames = []
 
   end
 
-  def import(filenames)
+  def import
     files.each{ |filename| Song.new_by_filename(filename) }
   end
 
