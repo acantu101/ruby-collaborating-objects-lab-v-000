@@ -2,12 +2,11 @@ require 'pry'
 class MP3Importer
 
 attr_accessor :file_path
-    @directory = []
+
 
 
   def initialize(file_path)
-    @file_path = file_path
-    file_path
+    @file_path
     #binding.pry
   end
 
