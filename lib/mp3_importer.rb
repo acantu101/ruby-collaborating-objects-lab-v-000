@@ -15,7 +15,7 @@ attr_accessor :path
 def files
   path
 
-  song_name
+
 
 end
 
