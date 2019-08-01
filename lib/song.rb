@@ -9,4 +9,8 @@ class Song
     @@all << name
   end
 
+  def self.new_by_filename(filename)
+  song = self.new(filename)
+end
+
 end
